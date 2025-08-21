@@ -2,12 +2,12 @@
 
 **A production-ready, fully automated CI/CD pipeline showcasing advanced AWS DevOps practices with zero-downtime deployments, containerization, and enterprise-grade automation**
 
-[![Live Demo](https://img.shields.io/badge/🎮_Live_Demo-Available-brightgreen)](http://13.218.222.112) [![AWS](https://img.shields.io/badge/☁️_AWS-Production_Ready-orange)] [![Docker](https://img.shields.io/badge/🐳_Docker-Containerized-blue)] [![CI/CD](https://img.shields.io/badge/⚙️_CI/CD-Fully_Automated-red)] [![Zero Downtime](https://img.shields.io/badge/🔄_Deployment-Zero_Downtime-green)]
+[![AWS](https://img.shields.io/badge/☁️_AWS-Production_Ready-orange)] [![Docker](https://img.shields.io/badge/🐳_Docker-Containerized-blue)] [![CI/CD](https://img.shields.io/badge/⚙️_CI/CD-Fully_Automated-red)] [![Zero Downtime](https://img.shields.io/badge/🔄_Deployment-Zero_Downtime-green)]
 
 ---
 
 ## ⚡ **30-Second Overview**
-- **🎮 [LIVE DEMO](http://13.218.222.112)** - See it working now with custom "2048 by Chalitha" branding
+- **🎮 Live Demo:** Resources temporarily deallocated post-completion (was running at 13.218.222.112)
 - **90% faster deployments** - From 2-hour manual process to 5-minute automation  
 - **100% deployment success rate** - Zero failed deployments with automated rollback
 - **Enterprise security** - Multi-layer AWS security best practices implemented
@@ -30,9 +30,9 @@ This project demonstrates **enterprise-level DevOps automation expertise** throu
 
 ---
 
-## 🏗️ **CI/CD Pipeline Architecture**
+## 🗂️ **CI/CD Pipeline Architecture**
 
-![CI/CD Pipeline Architecture](assets/CICD%20Pipeline%20Architecture)
+![CI/CD Pipeline Architecture](https://github.com/chalithah/2048-game-ci-cd/blob/716e2ec425f469fe432ec03579e4426576fefef4/assets/CICD%20Pipeline%20Architecture.png)
 
 ### **Pipeline Design Philosophy:**
 ```
@@ -107,7 +107,7 @@ The pipeline follows a **4-stage enterprise automation workflow**:
 
 ### **🎮 Live Application Running**
 ![2048 Game Application](assets/Live%20Application%20Running.png)
-*Production 2048 game "by Chalitha" running at http://13.218.222.112 with custom branding*
+*Production 2048 game "by Chalitha" running with custom branding (Resources temporarily deallocated)*
 
 ### **🔄 Complete Pipeline Success**
 ![Pipeline Success](assets/Complete%20Pipeline%20Success.png)
@@ -127,7 +127,7 @@ The pipeline follows a **4-stage enterprise automation workflow**:
 
 ### **🌐 Container Network Configuration**
 ![ECS Network Setup](assets/Container%20Network%20Configuration.png)
-*ECS task networking showing public IP assignment (13.218.222.112) and security group configuration*
+*ECS task networking showing public IP assignment and security group configuration*
 
 ### **🔐 Security Group Implementation**
 ![Security Groups](assets/Security%20Groups%20created%202048-http-sg.png)
@@ -141,20 +141,23 @@ The pipeline follows a **4-stage enterprise automation workflow**:
 
 ## 🚀 **Live Production Demo**
 
-**🌐 Application URL:** [http://13.218.222.112](http://13.218.222.112)
+**🌐 Application Status:** Resources temporarily deallocated following project completion for cost optimization. 
 
-**Interactive CI/CD Features to Test:**
-1. **Custom Branding** - Notice "2048 by Chalitha" personalization showing successful deployment
-2. **Fast Load Times** - Experience optimized Nginx + Docker performance
+**📝 Note:** This is a production-ready pipeline that was successfully running at IP address `13.218.222.112`. AWS infrastructure has been scaled down post-demonstration to optimize costs. The complete pipeline can be reactivated within 5 minutes by triggering the CI/CD workflow.
+
+**Interactive CI/CD Features Previously Demonstrated:**
+1. **Custom Branding** - "2048 by Chalitha" personalization showing successful deployment
+2. **Fast Load Times** - Optimized Nginx + Docker performance
 3. **High Availability** - Application hosted on enterprise-grade AWS infrastructure
 4. **Responsive Design** - Fully functional across all device types
-5. **Zero Downtime** - Application remains available during deployments
+5. **Zero Downtime** - Application remained available during all deployments
 
 **To Experience the CI/CD Pipeline:**
-1. Fork the [GitHub repository](https://github.com/chalithah/2048-game-ci-cd)
-2. Make any code change (update colors, text, etc.)
-3. Push to main branch and watch automated deployment
-4. See changes live in under 5 minutes
+1. Fork this repository
+2. Configure AWS credentials and update ECR repository URI
+3. Make any code change (update colors, text, etc.)
+4. Push to main branch and watch automated deployment
+5. See changes live in under 5 minutes
 
 ---
 
@@ -220,7 +223,7 @@ Deployment Platform:
   Task Definition: 2048-game-task (containerized application)
   Service: Auto-scaling enabled with health checks
   Network: Public subnet with security group controls
-  Public IP: 13.218.222.112 (dynamic assignment)
+  Public IP: Dynamic assignment (previously 13.218.222.112)
 ```
 
 ### **Security & Compliance:**
@@ -264,6 +267,7 @@ Cost Optimization Features:
   - ECR lifecycle policies for old image cleanup  
   - CloudWatch log retention policies
   - Right-sized task definitions for optimal performance/cost ratio
+  - Resource deallocation post-demonstration
 ```
 
 ---
