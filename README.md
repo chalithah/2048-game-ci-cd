@@ -32,7 +32,7 @@ This project demonstrates **enterprise-level DevOps automation expertise** throu
 
 ## 🏗️ **CI/CD Pipeline Architecture**
 
-![CI/CD Pipeline Architecture](assets/pipeline-architecture-diagram.png)
+![CI/CD Pipeline Architecture](assets/CICD%20Pipeline%20Architecture.png)
 
 ### **Pipeline Design Philosophy:**
 ```
@@ -106,48 +106,36 @@ The pipeline follows a **4-stage enterprise automation workflow**:
 ## 🖼️ **Production Pipeline Evidence**
 
 ### **🎮 Live Application Running**
-![2048 Game Application](assets/2048-game-live-application.png)
+![2048 Game Application](assets/Live%20Application%20Running.png)
 *Production 2048 game "by Chalitha" running at http://13.218.222.112 with custom branding*
 
 ### **🔄 Complete Pipeline Success**
-![Pipeline Success](assets/codepipeline-success-complete.png)
+![Pipeline Success](assets/Complete%20Pipeline%20Success.png)
 *Complete CI/CD pipeline execution showing Source → Build → Deploy stages all successful with green checkmarks*
 
 ### **📦 ECR Container Registry**
-![ECR Repository](assets/ecr-repository-management.png)
+![ECR Repository](assets/ECR%20Container%20Registry.png)
 *Amazon ECR showing versioned Docker images with automated push from CI/CD pipeline*
 
 ### **🔨 CodeBuild Automation**
-![CodeBuild Process](assets/codebuild-execution-logs.png)
+![CodeBuild Process](assets/CodeBuild%20Succeeded.png)
 *AWS CodeBuild automatically building Docker image from GitHub source code with detailed logs*
 
 ### **🚀 ECS Service Deployment**
-![ECS Service Running](assets/ecs-service-deployment-success.png)
+![ECS Service Running](assets/ECS%20Service%20Deployment.png)
 *Amazon ECS service running containerized application with successful deployment notifications*
 
 ### **🌐 Container Network Configuration**
-![ECS Network Setup](assets/ecs-task-networking-config.png)
+![ECS Network Setup](assets/Container%20Network%20Configuration.png)
 *ECS task networking showing public IP assignment (13.218.222.112) and security group configuration*
 
-### **🖥️ ECS Task Management**
-![ECS Tasks Running](assets/ecs-tasks-running-status.png)
-*ECS cluster showing running tasks with health monitoring and automatic task replacement*
-
 ### **🔐 Security Group Implementation**
-![Security Groups](assets/security-groups-configuration.png)
+![Security Groups](assets/Security%20Groups%20created%202048-http-sg.png)
 *Properly configured security groups (2048-http-sg) implementing HTTP access controls*
 
 ### **📋 VPC Network Architecture**
-![VPC Configuration](assets/vpc-network-architecture.png)
+![VPC Configuration](assets/VPC%20Network%20Architecture.png)
 *Custom VPC (2048-vpc-vpc) with public/private subnets across multiple availability zones*
-
-### **⚙️ Local Docker Build Process**
-![Docker Build](assets/docker-build-process-local.png)
-*Local Docker build and push process showing container creation and ECR push workflow*
-
-### **🏗️ Container Build Execution**
-![Docker Container Build](assets/docker-container-build-execution.png)
-*Detailed Docker build process showing layer creation and optimization for production deployment*
 
 ---
 
