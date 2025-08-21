@@ -129,10 +129,6 @@ The pipeline follows a **4-stage enterprise automation workflow**:
 ![ECS Network Setup](assets/Container%20Network%20Configuration.png)
 *ECS task networking showing public IP assignment (13.218.222.112) and security group configuration*
 
-### **🖥️ ECS Task Management**
-![ECS Tasks Running](assets/ECS%20Task%20Management.png)
-*ECS cluster showing running tasks with health monitoring and automatic task replacement*
-
 ### **🔐 Security Group Implementation**
 ![Security Groups](assets/Security%20Groups%20created%202048-http-sg.png)
 *Properly configured security groups (2048-http-sg) implementing HTTP access controls*
@@ -140,18 +136,6 @@ The pipeline follows a **4-stage enterprise automation workflow**:
 ### **📋 VPC Network Architecture**
 ![VPC Configuration](assets/VPC%20Network%20Architecture.png)
 *Custom VPC (2048-vpc-vpc) with public/private subnets across multiple availability zones*
-
-### **👤 IAM Security Configuration**
-![IAM Roles](assets/IAM%20Roles%20Policies.png)
-*Properly configured IAM roles and policies for secure pipeline execution with least privilege access*
-
-### **⚙️ Local Docker Build Process**
-![Docker Build](assets/Local%20Docker%20Build%20Process.png)
-*Local Docker build and push process showing container creation and ECR push workflow*
-
-### **🏗️ Container Build Execution**
-![Docker Container Build](assets/Container%20Build%20Execution.png)
-*Detailed Docker build process showing layer creation and optimization for production deployment*
 
 ---
 
