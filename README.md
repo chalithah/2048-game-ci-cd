@@ -32,7 +32,7 @@ This project demonstrates **enterprise-level DevOps automation expertise** throu
 
 ## 🏗️ **CI/CD Pipeline Architecture**
 
-![CI/CD Pipeline Architecture](assets/CICD%20Pipeline%20Architecture.png)
+![CI/CD Pipeline Architecture](assets/CICD%20Pipeline%20Architecture)
 
 ### **Pipeline Design Philosophy:**
 ```
