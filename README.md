@@ -32,7 +32,7 @@ This project demonstrates **enterprise-level DevOps automation expertise** throu
 
 ## 🗂️ **CI/CD Pipeline Architecture**
 
-![CI/CD Pipeline Architecture](https://github.com/chalithah/2048-game-ci-cd/blob/716e2ec425f469fe432ec03579e4426576fefef4/assets/CICD%20Pipeline%20Architecture%Diagram.png)
+![CI/CD Pipeline Architecture](https://github.com/chalithah/2048-game-ci-cd/blob/main/assets/CICD%20Pipeline%20Architecture.png)
 
 ### **Pipeline Design Philosophy:**
 ```
